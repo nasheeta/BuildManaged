@@ -14,12 +14,16 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Login {
+public class Login {  
+	
+	
 	
 	String browser= "chrome";
 	
 	@Test(priority=2)
 	public void negativeLogin() throws InterruptedException {
+		
+		
 		WebDriver driver= null;
 		
 		if(browser.equals("chrome")) {
